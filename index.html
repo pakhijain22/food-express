@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZestyBites</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-orange-50 font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow p-4 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-orange-500">ZestyBites</h1>
+      <nav class="space-x-4 font-medium">
+        <a href="#menu" class="hover:text-orange-500">Menu</a>
+        <a href="#why" class="hover:text-orange-500">Why Us</a>
+        <a href="#contact" class="hover:text-orange-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-orange-100">
+    <h2 class="text-4xl font-bold mb-4">Delicious Food Delivered Fast</h2>
+    <p class="text-lg mb-6">Order from your favorite restaurants and get meals to your door.</p>
+    <a href="#menu" class="bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600">View Menu</a>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" class="py-16 max-w-6xl mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center mb-10">Popular Dishes</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-lg shadow p-4">
+        <img src="https://source.unsplash.com/300x200/?pizza" alt="Pizza" class="rounded mb-4 w-full h-48 object-cover" />
+        <h4 class="text-xl font-semibold mb-1">Margherita Pizza</h4>
+        <p class="text-sm text-gray-600">Cheesy and delicious classic pizza.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4">
+        <img src="https://source.unsplash.com/300x200/?burger" alt="Burger" class="rounded mb-4 w-full h-48 object-cover" />
+        <h4 class="text-xl font-semibold mb-1">Veggie Burger</h4>
+        <p class="text-sm text-gray-600">Loaded with fresh veggies and crispy patties.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4">
+        <img src="https://source.unsplash.com/300x200/?noodles" alt="Noodles" class="rounded mb-4 w-full h-48 object-cover" />
+        <h4 class="text-xl font-semibold mb-1">Chili Garlic Noodles</h4>
+        <p class="text-sm text-gray-600">Spicy and satisfying Indo-Chinese noodles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section id="why" class="py-16 bg-white text-center px-4">
+    <h3 class="text-2xl font-bold mb-6">Why Choose ZestyBites?</h3>
+    <p class="max-w-xl mx-auto text-gray-600">We deliver hot, fresh meals from top-rated restaurants. Fast delivery, easy ordering, and great taste — always!</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-orange-100 px-4 text-center">
+    <h3 class="text-2xl font-bold mb-6">Contact Us</h3>
+    <form class="max-w-md mx-auto space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 border rounded" />
+      <input type="email" placeholder="Your Email" class="w-full p-3 border rounded" />
+      <textarea rows="4" placeholder="Your Message" class="w-full p-3 border rounded"></textarea>
+      <button class="w-full bg-orange-500 text-white py-3 rounded hover:bg-orange-600">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 ZestyBites. Built with ❤️ using Tailwind CSS.</p>
+  </footer>
+
+</body>
+</html>
